@@ -115,3 +115,30 @@ body {
 .movie__average--red {
     border: 2px solid red;
 }
+
+.pagination {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prevPage , .nextPage {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+    user-select: none;
+}
+
+.prevPage:hover, .nextPage:hover {
+    opacity: .3;
+}
+
+.hidden {
+    cursor: default;
+    opacity: .5;
+}
+
+.hidden:hover{
+    opacity: .5;
+}
