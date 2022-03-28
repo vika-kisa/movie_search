@@ -46,7 +46,7 @@ async function getMovies() { // для показа топ 100 фильмов
     return (await fetchRequest('/v2.2/films/top', {
        page: pagination.page,
        type: 'TOP_100_POPULAR_FILMS',
-    })).json;
+    })).json();
 }
 
 async function searchMovies() { // для поиска фильмов в форме
